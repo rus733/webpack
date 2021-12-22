@@ -8,4 +8,11 @@ module.exports = {
     filename: 'main.js', // имя исходящего файла
     path: path.resolve(__dirname, 'dist'), // абсолютный путь куда он помещается
   },
+  devServer: {
+    hot: true,
+    static: {
+      directory: './dist',
+      watch: true,
+    },
+  },
 };

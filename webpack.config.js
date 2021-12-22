@@ -5,7 +5,7 @@ module.exports = {
   entry: './index.js', // убрали из этого пути
   output: {
     // в обьект передаем
-    filename: 'main.js', // имя исходящего файла
+    filename: 'js/main.js', // имя исходящего файла
     path: path.resolve(__dirname, 'dist'), // абсолютный путь куда он помещается
   },
   devServer: {

@@ -1,5 +1,4 @@
-'use strict';
-// дз 18
+'use strict'
 
 import one from './modules/one';
 import two from './modules/two';
